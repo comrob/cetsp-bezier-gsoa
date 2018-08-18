@@ -7,8 +7,7 @@ The solver can solve 2D and also 3D instances where the shape of the neighborhoo
 The approach has been introduced at ICRA 2018 and published in 
 
 ```
-@article{faigl18gsoa,
-   @article{faigl18ral,
+@article{faigl18ral,
    author    = {Jan Faigl and Petr Váňa},
    title     = {Surveillance Planning With B{\'{e}}zier Curves},
    journal   = {{IEEE} Robotics and Automation Letters},

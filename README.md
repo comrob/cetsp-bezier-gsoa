@@ -6,7 +6,7 @@ Therefore, the requested trajectory to visit a given set of regions is considere
 The solver can solve 2D and also 3D instances where the shape of the neighborhood is represented by a sphere.
 The approach has been introduced at ICRA 2018 and published in 
 
-``
+```
 @article{faigl18gsoa,
    @article{faigl18ral,
    author    = {Jan Faigl and Petr Váňa},
@@ -19,18 +19,19 @@ The approach has been introduced at ICRA 2018 and published in
    url       = {https://doi.org/10.1109/LRA.2018.2789844},
    doi       = {10.1109/LRA.2018.2789844},
 }
-``
+```
 
 The approach has been further generalized for solving instances with a team of aerial vehicles; published in our article in the Journal of Field Robotics
 
-``
+```
 @article{faigl18jfr,
    author    = {Jan Faigl and Petr Vana and Robert Penicka and Martin Saska},
    title     = {Unsupervised Learning based Flexible Framework for Surveillance Planning with Aerial Vehicles},
    journal   = {Journal of Field Robotics},
-   note      = {In press},
+   year      = {2018},
+   note      = {In press}
 }
-``
+```
 
 All the sources including the sub-merge crl can be compiled into the build directory using cmake by calling ./install-cmake_build.sh which creates the binary tcetsp-bezier-gsoa in the build directory.
 Parameters of the solver can be provided from the command line or a configuration file, e.g., tcetsp-bezier-gsoa.cfg. The graphical output can be disabled by --gui none argument.
